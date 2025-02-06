@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3E6C1CEB2D54C84A0072F8D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E6C1CCC2D54C8470072F8D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E6C1CD32D54C8470072F8D3;
+			remoteInfo = antocreadev;
+		};
+		3E6C1CF52D54C84A0072F8D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E6C1CCC2D54C8470072F8D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E6C1CD32D54C8470072F8D3;
+			remoteInfo = antocreadev;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E6C1CD42D54C8470072F8D3 /* antocreadev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = antocreadev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E6C1CEA2D54C84A0072F8D3 /* antocreadevTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = antocreadevTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E6C1CF42D54C84A0072F8D3 /* antocreadevUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = antocreadevUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3E6C1CFC2D54C84A0072F8D3 /* Exceptions for "antocreadev" folder in "antocreadev" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3E6C1CD32D54C8470072F8D3 /* antocreadev */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3E6C1CD62D54C8470072F8D3 /* antocreadev */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3E6C1CFC2D54C84A0072F8D3 /* Exceptions for "antocreadev" folder in "antocreadev" target */,
+			);
+			path = antocreadev;
+			sourceTree = "<group>";
+		};
+		3E6C1CED2D54C84A0072F8D3 /* antocreadevTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = antocreadevTests;
+			sourceTree = "<group>";
+		};
+		3E6C1CF72D54C84A0072F8D3 /* antocreadevUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = antocreadevUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E6C1CD12D54C8470072F8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6C1CE72D54C84A0072F8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6C1CF12D54C84A0072F8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E6C1CCB2D54C8470072F8D3 = {
+			isa = PBXGroup;
+			children = (
+				3E6C1CD62D54C8470072F8D3 /* antocreadev */,
+				3E6C1CED2D54C84A0072F8D3 /* antocreadevTests */,
+				3E6C1CF72D54C84A0072F8D3 /* antocreadevUITests */,
+				3E6C1CD52D54C8470072F8D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E6C1CD52D54C8470072F8D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E6C1CD42D54C8470072F8D3 /* antocreadev.app */,
+				3E6C1CEA2D54C84A0072F8D3 /* antocreadevTests.xctest */,
+				3E6C1CF42D54C84A0072F8D3 /* antocreadevUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E6C1CD32D54C8470072F8D3 /* antocreadev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E6C1CFD2D54C84A0072F8D3 /* Build configuration list for PBXNativeTarget "antocreadev" */;
+			buildPhases = (
+				3E6C1CD02D54C8470072F8D3 /* Sources */,
+				3E6C1CD12D54C8470072F8D3 /* Frameworks */,
+				3E6C1CD22D54C8470072F8D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3E6C1CD62D54C8470072F8D3 /* antocreadev */,
+			);
+			name = antocreadev;
+			packageProductDependencies = (
+			);
+			productName = antocreadev;
+			productReference = 3E6C1CD42D54C8470072F8D3 /* antocreadev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E6C1CE92D54C84A0072F8D3 /* antocreadevTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E6C1D022D54C84A0072F8D3 /* Build configuration list for PBXNativeTarget "antocreadevTests" */;
+			buildPhases = (
+				3E6C1CE62D54C84A0072F8D3 /* Sources */,
+				3E6C1CE72D54C84A0072F8D3 /* Frameworks */,
+				3E6C1CE82D54C84A0072F8D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E6C1CEC2D54C84A0072F8D3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3E6C1CED2D54C84A0072F8D3 /* antocreadevTests */,
+			);
+			name = antocreadevTests;
+			packageProductDependencies = (
+			);
+			productName = antocreadevTests;
+			productReference = 3E6C1CEA2D54C84A0072F8D3 /* antocreadevTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E6C1CF32D54C84A0072F8D3 /* antocreadevUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E6C1D052D54C84A0072F8D3 /* Build configuration list for PBXNativeTarget "antocreadevUITests" */;
+			buildPhases = (
+				3E6C1CF02D54C84A0072F8D3 /* Sources */,
+				3E6C1CF12D54C84A0072F8D3 /* Frameworks */,
+				3E6C1CF22D54C84A0072F8D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E6C1CF62D54C84A0072F8D3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3E6C1CF72D54C84A0072F8D3 /* antocreadevUITests */,
+			);
+			name = antocreadevUITests;
+			packageProductDependencies = (
+			);
+			productName = antocreadevUITests;
+			productReference = 3E6C1CF42D54C84A0072F8D3 /* antocreadevUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E6C1CCC2D54C8470072F8D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					3E6C1CD32D54C8470072F8D3 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					3E6C1CE92D54C84A0072F8D3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3E6C1CD32D54C8470072F8D3;
+					};
+					3E6C1CF32D54C84A0072F8D3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3E6C1CD32D54C8470072F8D3;
+					};
+				};
+			};
+			buildConfigurationList = 3E6C1CCF2D54C8470072F8D3 /* Build configuration list for PBXProject "antocreadev" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E6C1CCB2D54C8470072F8D3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3E6C1CD52D54C8470072F8D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E6C1CD32D54C8470072F8D3 /* antocreadev */,
+				3E6C1CE92D54C84A0072F8D3 /* antocreadevTests */,
+				3E6C1CF32D54C84A0072F8D3 /* antocreadevUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E6C1CD22D54C8470072F8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6C1CE82D54C84A0072F8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6C1CF22D54C84A0072F8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E6C1CD02D54C8470072F8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6C1CE62D54C84A0072F8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6C1CF02D54C84A0072F8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E6C1CEC2D54C84A0072F8D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E6C1CD32D54C8470072F8D3 /* antocreadev */;
+			targetProxy = 3E6C1CEB2D54C84A0072F8D3 /* PBXContainerItemProxy */;
+		};
+		3E6C1CF62D54C84A0072F8D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E6C1CD32D54C8470072F8D3 /* antocreadev */;
+			targetProxy = 3E6C1CF52D54C84A0072F8D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E6C1CFE2D54C84A0072F8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97X7622JNX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = antocreadev/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learnStoryboard.antocreadev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E6C1CFF2D54C84A0072F8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97X7622JNX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = antocreadev/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learnStoryboard.antocreadev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E6C1D002D54C84A0072F8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E6C1D012D54C84A0072F8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E6C1D032D54C84A0072F8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97X7622JNX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learnStoryboard.antocreadevTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/antocreadev.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/antocreadev";
+			};
+			name = Debug;
+		};
+		3E6C1D042D54C84A0072F8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97X7622JNX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learnStoryboard.antocreadevTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/antocreadev.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/antocreadev";
+			};
+			name = Release;
+		};
+		3E6C1D062D54C84A0072F8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97X7622JNX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learnStoryboard.antocreadevUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = antocreadev;
+			};
+			name = Debug;
+		};
+		3E6C1D072D54C84A0072F8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97X7622JNX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learnStoryboard.antocreadevUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = antocreadev;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E6C1CCF2D54C8470072F8D3 /* Build configuration list for PBXProject "antocreadev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E6C1D002D54C84A0072F8D3 /* Debug */,
+				3E6C1D012D54C84A0072F8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E6C1CFD2D54C84A0072F8D3 /* Build configuration list for PBXNativeTarget "antocreadev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E6C1CFE2D54C84A0072F8D3 /* Debug */,
+				3E6C1CFF2D54C84A0072F8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E6C1D022D54C84A0072F8D3 /* Build configuration list for PBXNativeTarget "antocreadevTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E6C1D032D54C84A0072F8D3 /* Debug */,
+				3E6C1D042D54C84A0072F8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E6C1D052D54C84A0072F8D3 /* Build configuration list for PBXNativeTarget "antocreadevUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E6C1D062D54C84A0072F8D3 /* Debug */,
+				3E6C1D072D54C84A0072F8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E6C1CCC2D54C8470072F8D3 /* Project object */;
+}
