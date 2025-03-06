@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3EEBC0F42D79D30800848DFB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EEBC0F32D79D30800848DFB /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3E6C1CEB2D54C84A0072F8D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		3E6C1CD42D54C8470072F8D3 /* antocreadev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = antocreadev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6C1CEA2D54C84A0072F8D3 /* antocreadevTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = antocreadevTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6C1CF42D54C84A0072F8D3 /* antocreadevUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = antocreadevUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EEBC0F32D79D30800848DFB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EEBC0F42D79D30800848DFB /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +97,7 @@
 				3E6C1CD62D54C8470072F8D3 /* antocreadev */,
 				3E6C1CED2D54C84A0072F8D3 /* antocreadevTests */,
 				3E6C1CF72D54C84A0072F8D3 /* antocreadevUITests */,
+				3EEBC0F22D79D30800848DFB /* Frameworks */,
 				3E6C1CD52D54C8470072F8D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +110,14 @@
 				3E6C1CF42D54C84A0072F8D3 /* antocreadevUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3EEBC0F22D79D30800848DFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EEBC0F32D79D30800848DFB /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
